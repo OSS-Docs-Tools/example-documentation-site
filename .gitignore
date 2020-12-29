@@ -68,3 +68,6 @@ typings/
 
 .docusaurus
 build
+
+docs
+!docs/en

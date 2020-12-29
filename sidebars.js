@@ -1,5 +1,6 @@
 module.exports = {
   someSidebar: {
-    Pages: ['en/doc1', 'en/doc2'],
+    English: ['en/doc1', 'en/doc2'],
+    French: ['fr/doc1'],
   },
 };
