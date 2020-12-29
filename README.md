@@ -25,7 +25,8 @@ When you clone the repo, it only contains the markdown files for english docs.
 docs
 └── en
     ├── doc1.md
-    └── doc2.md
+    ├── doc2.md
+    └── root.m
 ```
 
 Then running: `yarn docs-sync pull OSS-Docs-Tools/example-localization-repo#main 0`
@@ -37,18 +38,20 @@ Then running: `yarn docs-sync pull OSS-Docs-Tools/example-localization-repo#main
 docs
 ├── en
 │   ├── doc1.md
-│   └── doc2.md
+│   ├── doc2.md
+│   └── root.m
 └── fr
     └── doc1.md
 ```
 
 This repo uses a `.gitignore` to ignore any directory in the `docs` dir _except_ for en:
 
-```
+```sh
 # Remove all of the docs dir
-docs
+**/docs/*
+
 # Except for the english folder
-!docs/en
+!**/docs/en
 ```
 
 ----

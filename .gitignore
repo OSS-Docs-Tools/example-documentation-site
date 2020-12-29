@@ -69,5 +69,5 @@ typings/
 .docusaurus
 build
 
-docs
-!docs/en
+**/docs/*
+!**/docs/en
