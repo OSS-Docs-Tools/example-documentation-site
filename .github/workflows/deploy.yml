@@ -32,8 +32,8 @@ jobs:
         run: |
           yarn install --frozen-lockfile
           yarn build
-         # Deploy to the prod appservice
-      - name: Deploy + Publish to AppService
+
+      - name: Deploy to GH Pages
         uses: peaceiris/actions-gh-pages@v1.1.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
