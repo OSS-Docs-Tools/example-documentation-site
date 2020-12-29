@@ -1,6 +1,6 @@
 ## An example app
 
-This repo uses [`@oss-docs/sync`](https://www.npmjs.com/package/@oss-docs/sync) to keep some locale specific files.
+This repo uses [`@oss-docs/sync`](https://www.npmjs.com/package/@oss-docs/sync) to keep some locale specific files (you can find those in [`OSS-Docs-Tools/example-localization-repo`](https://github.com/OSS-Docs-Tools/example-localization-repo)).
 
 ```sh
 git clone https://github.com/OSS-Docs-Tools/example-documentation-site
